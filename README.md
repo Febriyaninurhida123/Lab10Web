@@ -230,7 +230,7 @@ return false;
 Implementasikan konsep modularisasi pada kode program pada praktukum sebelumnya dengan menggunakan class library untuk form dan database connection.
 1. Buat folder baru dengan nama lab10_php_praktikum
 
-2. Setelah itu buat beberapa file sama seperti file-file yang ada pada praktikum 9 hanya saja ditambah dengan file database.php, untuk script lebih lengkapnya kalian dapat langsung lihat pada folder  [lab10_php_praktikum](https://github.com/Febriyaninurhida123/Lab10Web/tree/main/lab10_php_praktikum).
+2. Setelah itu buat beberapa file sama seperti file-file yang ada pada praktikum 9 hanya saja ditambah dengan file database.php, untuk script lebih lengkapnya kalian dapat langsung lihat pada folder  [lab10_php_praktikum](https://github.com/Febriyaninurhida123/Lab10Web/tree/master/lab10_php_praktikum).
 
 3. Hasil Output index.php:
 ![img](ss/ss8.png)
