@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: rgba(163, 193, 237, 0.8);
+    --background-color: #fbfdfd;
+    --text-color: #2c3e50;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('bggg.jpeg') fixed center center;
+    background-size: cover;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: auto;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+.container {
+    width: 80%;
+    text-align: center;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+.main {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px; /* Sesuaikan padding sesuai kebutuhan */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Untuk memastikan ukurannya 100% dari container */
+    max-width: 800px; /* Sesuaikan max-width sesuai kebutuhan */
+    box-sizing: border-box;
+    margin:auto; /* Menyertakan padding dan border dalam hitungan lebar dan tinggi */
+}
+
+.input,
+.file-input {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.input-field,
+.select-field,
+.file-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #479d7f;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.select-field {
+    background: url('bggg.jpeg') no-repeat right;
+    background-size: cover;
+    padding-right: 10px;
+}
+
+.select-field:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 5px rgba(133, 177, 242, 0.5);
+}
+
+.simpan-button,
+.submit {
+    background-color: #9dc7ef;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.simpan-button:hover,
+.submit:hover {
+    background-color: #9dc7ef;
+}
