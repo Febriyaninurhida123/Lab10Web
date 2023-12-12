@@ -322,6 +322,11 @@ switch ($mod) {
 
 ![img](ss/ss26.png)
 
+dan inilah data yang terecord di database setelah dilakukan perubahan:
+
+![img](ss/ss27.png)
+
+
 
 5. Masuk ke menu "about" sama seperti praktikum sebelumnya dan dibagian isi sudah saya jelaskan
 
