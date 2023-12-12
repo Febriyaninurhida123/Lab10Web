@@ -1,0 +1,274 @@
+/* General Reset */
+body, h1, h2, p, ul, li, table, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font and Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(241, 163, 253), rgb(168, 225, 255));
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px black;
+}
+
+/* Heading 2 */
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(241, 163, 253), rgb(168, 225, 255));
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px rgb(255, 255, 255);
+}
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Form Container */
+.form-container {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top, rgb(241, 163, 253), rgb(168, 225, 255));
+}
+
+/* Form Input */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+}
+
+/* Table Styles */
+.my-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.my-table th, .my-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.my-table th {
+    background-color: rgb(239, 192, 247);
+    color: white;
+}
+
+.my-table tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+}
+
+.my-table tr:hover {
+    background-color: #ebebeb;
+}
+
+/* Input Text */
+input[type="text"] {
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-family: "Raleway SemiBold", sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+}
+
+/* Form Submit Button */
+form table input[type="submit"] {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    font-family: Raleway SemiBold, sans-serif;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form table input[type="submit"]:hover {
+    background-color: #ffffff;
+    transition: 0.5s all;
+}
+
+/* Navigation */
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    display: block;
+    border-radius: 5px;
+    border: 5px solid rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(241, 163, 253), rgb(168, 225, 255));
+}
+
+nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active, nav a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Content */
+.content {
+    background-color: rgb(255, 255, 255);
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.btn-delete {
+    border: 1px solid #db5d59;
+    background: #db5d59 url("img/hapus.png") no-repeat 5px 4px;
+    height: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+  }
+  
+  .btn-update {
+    border: 1px solid #00b3a8;
+    background: #00b3a8 url("img/update.png") no-repeat 5px 4px;
+    height: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+  }
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    clear: both;
+    text-align: center;
+    background: linear-gradient(to right, rgb(241, 163, 253), rgb(168, 225, 255));
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: "Raleway SemiBold", sans-serif;
+    border: 5px solid rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Center the table and provide top margin */
+    max-width: 80%; /* Limit the maximum width to 80% */
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd; /* Set your table border color */
+}
+
+th {
+    background-color: rgb(241, 163, 253); /* Set your table header background color */
+    color: #fff;
+}
+
+/* Table row styles */
+tr:nth-child(even) {
+    background-color: #ecf0f1; /* Set your even row background color */
+}
+
+tr:hover {
+    background-color: #d4e6f1; /* Set your row hover background color */
+}
+
+/* Table cell styles */
+td {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Add some spacing between the table cells */
+td, th {
+    padding: 15px;
+}
+
+/* Add some spacing between the table cells and the table borders */
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+/* Add a box shadow to the table */
+table {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Tambah Barang button styles */
+.tambah-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(241, 163, 253);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    margin: 0 auto;    
+}
+
+.tambah-button:hover {
+    background-color: rgb(241, 163, 253);
+}
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(241, 163, 253), rgb(168, 225, 255));
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px rgb(255, 255, 255);
+}
+

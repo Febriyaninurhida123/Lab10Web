@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+ RewriteEngine On
+ RewriteBase /htdocs/lab10_php_op/lab10_php_tugas/
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteRule ^(.*)$ index.php?mod=$1 [L]
+</IfModule>
